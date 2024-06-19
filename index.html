@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--to make web page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="Stylesheet" href="style.css">
+    <title>Shop me</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Shop me</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="#home" class="active"> Home</a></li>
+            <li>
+                <a href="#new-arrivals">New Arrivals</a></li>
+            <li>
+                <a href="#fashion">Fashion</a></li>
+            <li><a href="#account">Account</a></li>
+            <li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </li>
+        </ul>
+        <!--for responsive button-->
+        <div class="menu-btn">
+            <i class="fa fa-close"></i>
+
+            <!--<i class="fa fa-close" style="font-size:24px"></i>-->
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>New Arrivals for Family</h1>
+        <p><i>The best fashion of the week</i></p>
+        <button>Buy it Now</button>
+    </section>
+
+    <h1 class="pheading">Our Latest products</h1>
+
+    <Section class="sec">
+        <div class="products">
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=1.jpg alt=""></div>
+                <div class="desc">Shoes,Sandals,Slippers...</div>
+                <div class="title">Lady Sandal</div>
+                <div class="box">
+                    <div class="price">$1000</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=2.jpg alt=""></div>
+                <div class="desc">Bags and Leathers</div>
+                <div class="title">Diamond Purse</div>
+                <div class="box">
+                    <div class="price">$5000</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=3.jpg alt=""></div>
+                <div class="desc">Women Accessories</div>
+                <div class="title">Party Wear</div>
+                <div class="box">
+                    <div class="price">$7000</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=4.jpg alt=""></div>
+                <div class="desc">Electronics Gadgets & Other Accessories</div>
+                <div class="title">Combo</div>
+                <div class="box">
+                    <div class="price">$4000</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+
+
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=5.jpg alt=""></div>
+                <div class="desc">Men Accessories</div>
+                <div class="title">T-Shirts</div>
+                <div class="box">
+                    <div class="price">$500</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+
+
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=7.jpg alt=""></div>
+                <div class="desc">Cosmetics</div>
+                <div class="title">Beauty Products</div>
+                <div class="box">
+                    <div class="price">$10000</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+
+
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=6.jpg alt=""></div>
+                <div class="desc">Children Accessories</div>
+                <div class="title">Soft Toys</div>
+                <div class="box">
+                    <div class="price">$150</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+
+
+            <!--card starts-->
+            <div class="card">
+                <div class="img"><img src=9.jpg alt=""></div>
+                <div class="desc">Stationaries</div>
+                <div class="title">School Accessories</div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <button class="btn">Add to Cart</button><br>
+                    <button class="btn">Buy</button> </div>
+            </div>
+            <!--card ends-->
+        </div>
+    </Section>
+
+    <footer>
+        <p>Copyrights @ <a href=""> Shop me</a></p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+
+</body>
+<!---responsive-->
+
+
+</html>
